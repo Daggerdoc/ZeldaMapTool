@@ -1,0 +1,29 @@
+<!-- 
+Todo: Implement Screen editing.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zelda Map Tool</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Zelda Map Tool</h1>
+        <p>A simple tool to help you fill out your own map for <i>The Legend of Zelda</i></p>
+        <p>Left-click a screen to enlarge and edit it.</p>
+        <p>Right-click a screen to reveal or hide it. Screens not included in the map in the manual are hidden automatically.</p>
+
+
+
+        <div class="map-container">
+            <canvas id="map">
+                <p>If you're seeing or hearing this your browser is probably too old for this website. Or something broke. Or you're using a screen reader. IDK your life.</p>
+            </canvas>
+            <canvas id='secrets'></canvas>
+            <canvas id='obscure'></canvas>
+        </div>
+
+        <script src="/index.js" type="module"></script> 
+    </body>
+</html>
