@@ -1,81 +1,67 @@
-body {
-    background-color: #272727;
-    font-family: "Ubuntu", sans-serif;
-    color: #ffffff;
-    margin-left: 18px;
-    margin-right: 18px;
-    font-size: 15px;
-    text-align: center;
-}
-
-h1 {
-    font-size: 32px;
-}
-
 .map-container {
-    display: flex;
-    position: relative;
-    border: 2px solid #ffffff;
+  display: flex;
+  position: relative;
+  border: 2px solid #ffffff;
 }
 
 #map {
-    background-color: #313131;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4096/1408;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    z-index: 1;
+  background-color: #313131;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4096/1408;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  z-index: 1;
 }
 
 #secrets {
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-    background-color: transparent;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4096/1408;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    z-index: 2;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4096/1408;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  z-index: 2;
 }
 
-#obscure{
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
-    background-color: transparent;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4096/1408;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    z-index: 3;
+#obscure {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4096/1408;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  z-index: 3;
 }
 
-#openScreen{
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+#openScreen {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-    background-color: transparent;
-    width: 65%;
-    height: auto;
-    aspect-ratio: 4096/1408;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    z-index: 4;
-    margin: auto;
+  background-color: transparent;
+  width: 65%;
+  height: auto;
+  aspect-ratio: 4096/1408;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  z-index: 4;
+  margin: auto;
 }
